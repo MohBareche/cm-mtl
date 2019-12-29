@@ -21,7 +21,7 @@ mongoose.connect(config.DB_URI, {
   useFindAndModify:false
 }).then(()=>{
   const fakeDb = new FakeDb()
-  // fakeDb.seedDb()
+  fakeDb.seedDb()
 })
 
 // routes

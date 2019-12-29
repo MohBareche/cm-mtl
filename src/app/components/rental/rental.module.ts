@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
 import { HttpClientModule } from "@angular/common/http";
 import { NgPipesModule } from "ngx-pipes";
+import { MapModule } from '../common/map/map.module';
 
 import { RentalService } from 'src/app/shared/services/rental.service';
 
@@ -30,7 +31,7 @@ declarations:[
   UpperCasePipe,
   CapitalizePipe
 ],
-imports:[CommonModule,HttpClientModule, RouterModule.forChild(routes), NgPipesModule],
+imports:[CommonModule,HttpClientModule, RouterModule.forChild(routes), NgPipesModule, MapModule],
 providers:[RentalService]
 })
 

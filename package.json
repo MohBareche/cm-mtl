@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --proxy-config proxy.conf.json",
-    "dev":"nodemon server/index.js",
+    "dev": "nodemon server/index.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -12,6 +12,7 @@
   },
   "private": true,
   "dependencies": {
+    "@agm/core": "^1.1.0",
     "@angular/animations": "~8.2.14",
     "@angular/common": "~8.2.14",
     "@angular/compiler": "~8.2.14",
@@ -24,6 +25,7 @@
     "bootstrap": "^4.4.1",
     "express": "^4.17.1",
     "font-awesome": "^4.7.0",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.8.3",
     "ngx-pipes": "^2.6.0",
     "rxjs": "~6.4.0",

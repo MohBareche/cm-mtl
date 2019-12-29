@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
+
 const retalSchema = new Schema({
   title: {
     type: String,
