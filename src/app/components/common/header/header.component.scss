@@ -1,0 +1,21 @@
+@import 'variables';
+
+.navbar {
+  padding: 10px;
+  margin-bottom: 40px;
+
+  .navbar-brand {
+    margin-right: 30px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: $main-color;
+    font-weight: 500;
+  }
+
+  .nav-item {
+    font-size: 14px;
+  }
+  .cm-search{
+    width: 250px;
+  }
+}
