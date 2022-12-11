@@ -22,7 +22,7 @@
     "@angular/router": "~8.2.14",
     "bcryptjs": "^2.4.3",
     "bootstrap": "^4.4.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "font-awesome": "^4.7.0",
     "mongoose": "^5.8.3",
     "ngx-pipes": "^2.6.0",
